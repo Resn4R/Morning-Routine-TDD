@@ -36,4 +36,13 @@ final class Morning_Routine_TDDTests: XCTestCase {
         
         XCTAssertEqual(sample.morningRoutine(hour, min), "Have breakfast")
     }
+    
+    func testWhenInputIsNotBetween8And9ReturnNoActivity () {
+        let hour = 1
+        let min = 30
+        
+        let sample = Reminder()
+        
+        XCTAssertEqual(sample.morningRoutine(hour, min), "No Activity")
+    }
 }

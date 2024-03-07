@@ -10,13 +10,10 @@ import Foundation
 struct Reminder {
     func morningRoutine(_ hour: Int, _ min: Int) -> String {
         switch hour {
-        case 6:
-            return "Do Exercise"
-        case 7:
-            return "Read and study"
-        case 8:
-            return "Have breakfast"
-        default: return "ass"
+        case 6: return "Do Exercise"
+        case 7: return "Read and study"
+        case 8: return "Have breakfast"
+        default: return "No Activity"
         }
     }
 }

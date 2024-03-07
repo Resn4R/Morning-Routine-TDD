@@ -10,6 +10,6 @@ import Foundation
 struct Reminder {
     func morningRoutine(_ hour: Int, _ min: Int) -> String {
         if hour >= 6 && hour < 7 { return "Do Exercise" }
-        else { return "Buttocks" }
+        else { return "Read and study" }
     }
 }

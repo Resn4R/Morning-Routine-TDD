@@ -54,4 +54,5 @@ final class Morning_Routine_TDDTests: XCTestCase {
         
         XCTAssertEqual(sample.morningRoutine(hour, min), "No Activity")
     }
+    
 }

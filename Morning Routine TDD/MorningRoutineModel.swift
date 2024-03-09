@@ -10,8 +10,9 @@ import Foundation
 struct MorningRoutine: Routine {
     var activities: [Activity]
     
-    func getActivity(atHour hour: Int, atMinute minute: Int) -> Activity {
-        return activities.filter({$0.time.hour == hour && $0.time.minute == minute})
+    func getActivity(atHour hour: Int, atMinute minute: Int) -> Activity? {
+        activities.filter({$0.time.hour == hour && $0.time.minute == minute}).first
+
     }
     
 }

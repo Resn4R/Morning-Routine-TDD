@@ -10,5 +10,5 @@ import Foundation
 protocol Routine {
     var activities: [Activity] { get set }
     
-    func getActivity(atHour hour: Int, atMinute minute: Int) -> Activity
+    func getActivity(atHour hour: Int, atMinute minute: Int) -> Activity?
 }

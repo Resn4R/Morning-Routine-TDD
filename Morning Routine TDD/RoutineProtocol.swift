@@ -8,7 +8,7 @@
 import Foundation
 
 protocol Routine {
-    var activities: [String] { get set }
+    var activities: [Activity] { get set }
     
-    func getActivity(atHour hour: Int, atMinute minute: Int)
+    func getActivity(atHour hour: Int, atMinute minute: Int) -> Activity
 }

@@ -15,6 +15,7 @@
 		4F581C7E2B9A427100F50C5C /* Morning_Routine_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F581C7D2B9A427100F50C5C /* Morning_Routine_TDDUITests.swift */; };
 		4F581C802B9A427100F50C5C /* Morning_Routine_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F581C7F2B9A427100F50C5C /* Morning_Routine_TDDUITestsLaunchTests.swift */; };
 		4F581C8D2B9A448D00F50C5C /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F581C8C2B9A448D00F50C5C /* ReminderModel.swift */; };
+		4F581C8F2B9CA6BB00F50C5C /* RoutineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F581C8E2B9CA6BB00F50C5C /* RoutineProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4F581C7D2B9A427100F50C5C /* Morning_Routine_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morning_Routine_TDDUITests.swift; sourceTree = "<group>"; };
 		4F581C7F2B9A427100F50C5C /* Morning_Routine_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Morning_Routine_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4F581C8C2B9A448D00F50C5C /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
+		4F581C8E2B9CA6BB00F50C5C /* RoutineProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				4F581C622B9A426E00F50C5C /* Morning_Routine_TDDApp.swift */,
 				4F581C642B9A426E00F50C5C /* ContentView.swift */,
 				4F581C8C2B9A448D00F50C5C /* ReminderModel.swift */,
+				4F581C8E2B9CA6BB00F50C5C /* RoutineProtocol.swift */,
 				4F581C662B9A427100F50C5C /* Assets.xcassets */,
 				4F581C682B9A427100F50C5C /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F581C8F2B9CA6BB00F50C5C /* RoutineProtocol.swift in Sources */,
 				4F581C652B9A426E00F50C5C /* ContentView.swift in Sources */,
 				4F581C632B9A426E00F50C5C /* Morning_Routine_TDDApp.swift in Sources */,
 				4F581C8D2B9A448D00F50C5C /* ReminderModel.swift in Sources */,
